@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Google maps api demo</title>
+
+    <script
+      src="https://maps.googleapis.com/maps/api/js?loading=async&libraries=maps,marker&v=beta"
+      defer
+    ></script>
+  </head>
+  <body>
+    <gmp-map
+      center="37.4220656,-122.0840897"
+      zoom="10"
+      map-id="DEMO_MAP_ID"
+      style="height: 400px"
+    >
+      <gmp-advanced-marker
+        position="37.4220656,-122.0840897"
+        title="Mountain View, CA"
+      ></gmp-advanced-marker>
+      <gmp-advanced-marker
+        position="47.648994,-122.3503845"
+        title="Seattle, WA"
+      ></gmp-advanced-marker>
+    </gmp-map>
+    <!-- <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d190433.1149704199!2d139.86799982552355!3d35.582718630956535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x605d1b87f02e57e7%3A0x2e01618b22571b89!2sTokyo%2C%20Japan!5e0!3m2!1sen!2sbg!4v1734633134555!5m2!1sen!2sbg"
+      width="600"
+      height="450"
+      style="border: 0"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe> -->
+  </body>
+</html>
